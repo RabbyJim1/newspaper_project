@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6964de52-4d07-4256-8578-fd1177d6037d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newspaper_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/newspaper_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +29,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fIHrRbCiALE3e4UlUZQFoDQHP3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -92,7 +92,7 @@
       <workItem from="1596078083794" duration="2090000" />
       <workItem from="1596090432424" duration="14332000" />
       <workItem from="1596166304007" duration="16488000" />
-      <workItem from="1596373741632" duration="1404000" />
+      <workItem from="1596373741632" duration="3875000" />
     </task>
     <task id="LOCAL-00001" summary="Ihititial Setup and CutomUser model creation done!">
       <created>1595917262393</created>
@@ -227,13 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596192635908</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="heroku connfig!">
+      <created>1596376640877</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1596376640877</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ihititial Setup and CutomUser model creation done!" />
     <MESSAGE value="admin updated" />
     <MESSAGE value="templates added" />
@@ -252,15 +260,15 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="448" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1596184591290" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1596192634744">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1596376637673">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596192634744" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596376637673" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595927758158" />
-    <state x="463" y="134" key="FileChooserDialogImpl" timestamp="1596180020856">
+    <state x="463" y="134" key="FileChooserDialogImpl" timestamp="1596377424047">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="134" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1596180020856" />
+    <state x="463" y="134" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1596377424047" />
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595924766249" />
     <state x="539" y="282" key="Github.ShareDialog" timestamp="1595916815926">
       <screen x="0" y="0" width="1366" height="768" />
