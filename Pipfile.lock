@@ -1,21 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "021bb8b6948e76168308f6200f1f2abc48a6a300c89ab19e93fcda0a5e298117"
+            "sha256": "627ef89f247ecee27e9ef0dabe116108d09c47abf171c900a8817befa64f9dd2"
         },
         "pipfile-spec": 6,
         "requires": {
-            "Django": "3.0.8",
-            "asgiref": "3.2.10",
-            "dj-database-url": "0.5.0",
-            "django-crispy-forms": "1.9.2",
-            "django-heroku": "0.3.1",
-            "gunicorn": "19.9.0",
-            "psycopg2": "2.8.5",
-            "python_version": "3.7",
-            "pytz": "2020.1",
-            "sqlparse": "0.3.1",
-            "whitenoise": "5.1.0"
+            "python_version": "3.7"
         },
         "sources": [
             {
