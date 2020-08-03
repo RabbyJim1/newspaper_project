@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6964de52-4d07-4256-8578-fd1177d6037d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newspaper_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/newspaper_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <workItem from="1596373741632" duration="5051000" />
       <workItem from="1596380407189" duration="3678000" />
       <workItem from="1596423083118" duration="220000" />
-      <workItem from="1596432702487" duration="2040000" />
+      <workItem from="1596432702487" duration="8455000" />
     </task>
     <task id="LOCAL-00001" summary="Ihititial Setup and CutomUser model creation done!">
       <created>1595917262393</created>
@@ -321,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596434952125</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="heroku connfig!">
+      <created>1596435383206</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1596435383206</updated>
+    </task>
+    <task id="LOCAL-00034" summary="heroku connfig!">
+      <created>1596435468943</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1596435468943</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,10 +362,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="448" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1596184591290" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1596435382009">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1596435467797">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596435382009" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596435467797" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595927758158" />
     <state x="463" y="134" key="FileChooserDialogImpl" timestamp="1596377424047">
       <screen x="0" y="0" width="1366" height="738" />
@@ -365,25 +380,25 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="504" y="89" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595916987681" />
-    <state width="1323" height="342" key="GridCell.Tab.0.bottom" timestamp="1596392848166">
+    <state width="1323" height="342" key="GridCell.Tab.0.bottom" timestamp="1596436856141">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="342" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596392848166" />
+    <state width="1323" height="342" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596436856141" />
     <state width="1323" height="201" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595924640538" />
-    <state width="1323" height="342" key="GridCell.Tab.0.center" timestamp="1596392848165">
+    <state width="1323" height="342" key="GridCell.Tab.0.center" timestamp="1596436856141">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="342" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596392848165" />
+    <state width="1323" height="342" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596436856141" />
     <state width="1323" height="201" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595924640538" />
-    <state width="1323" height="342" key="GridCell.Tab.0.left" timestamp="1596392848165">
+    <state width="1323" height="342" key="GridCell.Tab.0.left" timestamp="1596436856140">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="342" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596392848165" />
+    <state width="1323" height="342" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596436856140" />
     <state width="1323" height="201" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595924640538" />
-    <state width="1323" height="342" key="GridCell.Tab.0.right" timestamp="1596392848166">
+    <state width="1323" height="342" key="GridCell.Tab.0.right" timestamp="1596436856141">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="342" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596392848166" />
+    <state width="1323" height="342" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596436856141" />
     <state width="1323" height="201" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595924640538" />
     <state x="198" y="28" key="SettingsEditor" timestamp="1596434520840">
       <screen x="0" y="0" width="1366" height="738" />
