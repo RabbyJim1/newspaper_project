@@ -7,17 +7,15 @@ verify_ssl = true
 
 [packages]
 django = "*"
+dj-database-url = "*"
+asgiref = "*"
+django-crispy-forms = "*"
+django-heroku = "*"
+gunicorn = "*"
+psycopg2 = "*"
+pytz = "*"
+sqlparse = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.7"
-asgiref = "3.2.10"
-dj-database-url = "0.5.0"
-Django = "3.0.8"
-django-crispy-forms = "1.9.2"
-django-heroku = "0.3.1"
-gunicorn = "19.9.0"
-psycopg2 = "2.8.5"
-pytz = "2020.1"
-sqlparse = "0.3.1"
-whitenoise = "5.1.0"
-
