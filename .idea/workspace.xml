@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6964de52-4d07-4256-8578-fd1177d6037d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/articles/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/articles/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/articles/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article_new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newspaper_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/newspaper_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/articles/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/articles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/articles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newspaper_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/newspaper_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +115,8 @@
       <workItem from="1596596106696" duration="3073000" />
       <workItem from="1596684545833" duration="3920000" />
       <workItem from="1596980534186" duration="3213000" />
-      <workItem from="1597030708426" duration="2196000" />
+      <workItem from="1597030708426" duration="20761000" />
+      <workItem from="1597118539946" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="Ihititial Setup and CutomUser model creation done!">
       <created>1595917262393</created>
@@ -440,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597033003008</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="articles app added">
+      <created>1597034761988</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1597034761988</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,17 +477,22 @@
     <MESSAGE value="Change App name!" />
     <MESSAGE value="reset password by email integrated." />
     <MESSAGE value="google reset password is configured!" />
-    <option name="LAST_COMMIT_MESSAGE" value="google reset password is configured!" />
+    <MESSAGE value="articles app added" />
+    <option name="LAST_COMMIT_MESSAGE" value="articles app added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596184591290">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="448" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1596184591290" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1597033000599">
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597083546934">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597033000599" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1597083546934" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1597034760433">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597034760433" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595927758158" />
     <state x="463" y="134" key="FileChooserDialogImpl" timestamp="1596377424047">
       <screen x="0" y="0" width="1366" height="738" />
@@ -488,25 +507,25 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="504" y="89" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595916987681" />
-    <state width="1323" height="237" key="GridCell.Tab.0.bottom" timestamp="1596990517301">
+    <state width="1323" height="146" key="GridCell.Tab.0.bottom" timestamp="1597084426583">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596990517301" />
+    <state width="1323" height="146" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597084426583" />
     <state width="1323" height="201" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595924640538" />
-    <state width="1323" height="237" key="GridCell.Tab.0.center" timestamp="1596990517301">
+    <state width="1323" height="146" key="GridCell.Tab.0.center" timestamp="1597084426583">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596990517301" />
+    <state width="1323" height="146" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597084426583" />
     <state width="1323" height="201" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595924640538" />
-    <state width="1323" height="237" key="GridCell.Tab.0.left" timestamp="1596990517301">
+    <state width="1323" height="146" key="GridCell.Tab.0.left" timestamp="1597084426582">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596990517301" />
+    <state width="1323" height="146" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597084426582" />
     <state width="1323" height="201" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595924640538" />
-    <state width="1323" height="237" key="GridCell.Tab.0.right" timestamp="1596990517301">
+    <state width="1323" height="146" key="GridCell.Tab.0.right" timestamp="1597084426583">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596990517301" />
+    <state width="1323" height="146" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597084426583" />
     <state width="1323" height="201" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595924640538" />
     <state x="198" y="28" key="SettingsEditor" timestamp="1596599781296">
       <screen x="0" y="0" width="1366" height="738" />
